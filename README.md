@@ -18,27 +18,27 @@
 | No | No      | No         | 항목명                    | 설명                | 필수여부 |
 |----|---------|------------|------------------------|-------------------|------|
 | 1  |         |            | image                  | 이미지 정보            | Y    |
-|    | 01월 01일 |            | identifier             | 파일명               | Y    |
-|    | 01월 02일 |            | imsize                 | 이미지 파일 크기         | Y    |
+|    |   1-1   |            | identifier             | 파일명               | Y    |
+|    |   1-2   |            | imsize                 | 이미지 파일 크기         | Y    |
 | 2  |         |            | regions                | 관련정보              | Y    |
-|    | 02월 01일 |            | type                   | 어노테이션 종류          | Y    |
-|    | 02월 02일 |            | boxcorners             | 어노테이션좌표값 (좌측X,Y좌표/우측X,Y좌표)          | Y    |
-|    | 02월 03일 |            | ansize                 | 이미지 영역 사이즈        | Y    |
-|    | 02월 04일 |            | class                  | 클래스명              | Y    |
-|    | 02월 05일 |            | tags                   | 분류 항목             | Y    |
-|    |         | 2002-05-01 | 종ID                    | 종 아이디 정보          | Y    |
-|    |         | 2002-05-02 | 대분류                    | 대분류 정보            | Y    |
-|    |         | 2002-05-03 | 중분류                    | 중분류 정보            | Y    |
-|    |         | 2002-05-04 | 소분류                    | 소분류 정보            |      |
-|    |         | 2002-05-05 | Instance               | 대상체               | Y    |
-|    |         | 2002-05-06 | Instance Upper         | 대상체 상위 레벨         |      |
-|    |         | 2002-05-07 | GPS 위도                 | GPS 위도 값          |      |
-|    |         | 2002-05-08 | GPS 경도                 | GPS 경도 값          |      |
-|    | 02월 06일 |            | instance_uri           | 온톨리지 uri 정보       |      |
-|    | 02월 07일 |            | sem_ext                | 의미확장 정보           | Y    |
-|    |         | 2002-07-01 | property : locatedIn   | 의미확장 지역정보         | Y    |
-|    |         | 2002-07-02 | property : relatedTerm | 의미확장 연관정보         | Y    |
-|    |         | 2002-07-03 | property : description | 의미확장 상세정보         | Y    |
+|    |   2-1   |            | type                   | 어노테이션 종류          | Y    |
+|    |   2-2   |            | boxcorners             | 어노테이션좌표값 (좌측X,Y좌표/우측X,Y좌표)          | Y    |
+|    |   2-3   |            | ansize                 | 이미지 영역 사이즈        | Y    |
+|    |   2-4   |            | class                  | 클래스명              | Y    |
+|    |   2-5   |            | tags                   | 분류 항목             | Y    |
+|    |         |    2-5-1   | 종ID                    | 종 아이디 정보          | Y    |
+|    |         |    2-5-2   | 대분류                    | 대분류 정보            | Y    |
+|    |         |    2-5-3   | 중분류                    | 중분류 정보            | Y    |
+|    |         |    2-5-4   | 소분류                    | 소분류 정보            |      |
+|    |         |    2-5-5   | Instance               | 대상체               | Y    |
+|    |         |    2-5-6   | Instance Upper         | 대상체 상위 레벨         |      |
+|    |         |    2-5-7   | GPS 위도                 | GPS 위도 값          |      |
+|    |         |    2-5-8   | GPS 경도                 | GPS 경도 값          |      |
+|    |   2-6   |            | instance_uri           | 온톨리지 uri 정보       |      |
+|    |   2-7   |            | sem_ext                | 의미확장 정보           | Y    |
+|    |         |    2-7-1   | property : locatedIn   | 의미확장 지역정보         | Y    |
+|    |         |    2-7-2   | property : relatedTerm | 의미확장 연관정보         | Y    |
+|    |         |    2-7-3   | property : description | 의미확장 상세정보         | Y    |
 
 <img src="./markdown_image/noname01.bmp" alt="drawing" width="270x"> <img src="./markdown_image/noname02.bmp" alt="drawing" width="270x"> <img src="./markdown_image/noname03.bmp" alt="drawing" width="270x">
 
