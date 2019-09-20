@@ -40,7 +40,7 @@
 |    |         | 2002-07-02 | property : relatedTerm | 의미확장 연관정보         | Y    |
 |    |         | 2002-07-03 | property : description | 의미확장 상세정보         | Y    |
 
-<img src="noname01.bmp" alt="drawing" width="270x"> <img src="noname02.bmp" alt="drawing" width="270x"> <img src="noname03.bmp" alt="drawing" width="270x">
+<img src="./markdown_image/noname01.bmp" alt="drawing" width="270x"> <img src="./markdown_image/noname02.bmp" alt="drawing" width="270x"> <img src="./markdown_image/noname03.bmp" alt="drawing" width="270x">
 
 ## Data Description(데이터셋 )
 
