@@ -42,7 +42,7 @@
 
 <img src="./markdown_image/noname01.bmp" alt="drawing" width="270x"> <img src="./markdown_image/noname02.bmp" alt="drawing" width="270x"> <img src="./markdown_image/noname03.bmp" alt="drawing" width="270x">
 
-## Data Description(데이터셋 )
+## 데이터셋 구조
 
 | 대분류    | 중분류   | 소분류      | 대상체명                    |
 |--------|-------|----------|-------------------------|
